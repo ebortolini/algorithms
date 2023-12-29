@@ -1,3 +1,5 @@
+#Based on book/lectures from: https://algs4.cs.princeton.edu/home/
+
 class QuickUnionUF:
     def __init__(self, size:int) -> None:
         self.ids = []
