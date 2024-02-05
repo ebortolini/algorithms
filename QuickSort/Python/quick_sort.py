@@ -1,5 +1,7 @@
-from abc import ABCMeta, abstractmethod
-from typing import Any, List, Type, TypeVar, Generic
+'''
+Based on: https://algs4.cs.princeton.edu/23quicksort/Quick.java.html
+'''
+from typing import List, TypeVar
 import random
 
 Item = TypeVar("Item", int, str)
